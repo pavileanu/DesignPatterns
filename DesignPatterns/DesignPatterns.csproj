@@ -19,8 +19,13 @@
     <ProjectReference Include="..\Decorator\Decorator.csproj" />
     <ProjectReference Include="..\Factory\Factory.csproj" />
     <ProjectReference Include="..\Flyweight\Flyweight.csproj" />
+    <ProjectReference Include="..\Mediator\Mediator.csproj" />
+    <ProjectReference Include="..\Observer\Observer.csproj" />
     <ProjectReference Include="..\Proxy\Proxy.csproj" />
     <ProjectReference Include="..\Singleton\Singleton.csproj" />
+    <ProjectReference Include="..\Strategy\Strategy.csproj" />
+    <ProjectReference Include="..\Template\Template.csproj" />
+    <ProjectReference Include="..\Visitor\Visitor.csproj" />
   </ItemGroup>
 
 </Project>

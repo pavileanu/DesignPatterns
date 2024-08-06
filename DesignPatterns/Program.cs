@@ -10,9 +10,14 @@ using Proxy;
 using Bridge;
 using Flyweight;
 using ChainOfReponsability;
+using Strategy;
+using Visitor;
+using Template;
+using Mediator;
+using Observer;
 
 
-int designPattern = 9;
+int designPattern = 1;
 switch (designPattern) 
 {
     case 1:
@@ -41,6 +46,21 @@ switch (designPattern)
         break;
     case 9:
         ChainOfReponsabilityExample.Main(); 
+        break;
+    case 10:
+        MediatorExample.Main();
+        break;
+    case 11:
+        ObserverExample.Main();
+        break;
+    case 12:
+        StrategyExample.Main();
+        break;
+    case 13:
+        VisistorExample.Main();
+        break;
+    case 14:
+        TemplateExample.Main();
         break;
 }
 
