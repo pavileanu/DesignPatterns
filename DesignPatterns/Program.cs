@@ -8,9 +8,10 @@ using Singleton;
 using Adapter;
 using Proxy;
 using Bridge;
+using Flyweight;
 
 
-int designPattern = 7;
+int designPattern = 8;
 switch (designPattern) 
 {
     case 1:
@@ -33,6 +34,9 @@ switch (designPattern)
         break;
     case 7:
         BridgeExample.Main();
+        break;
+    case 8:
+        FlyweightExample.Main();
         break;
 }
 
