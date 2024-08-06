@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{15F36B19-3079-47F5-BE08-0B546C31DFD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfReponsability", "ChainOfReponsability\ChainOfReponsability.csproj", "{F8C6425C-5333-4A10-8FD9-27FE3B98B0F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{15F36B19-3079-47F5-BE08-0B546C31DFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15F36B19-3079-47F5-BE08-0B546C31DFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15F36B19-3079-47F5-BE08-0B546C31DFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C6425C-5333-4A10-8FD9-27FE3B98B0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C6425C-5333-4A10-8FD9-27FE3B98B0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C6425C-5333-4A10-8FD9-27FE3B98B0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C6425C-5333-4A10-8FD9-27FE3B98B0F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,9 +9,10 @@ using Adapter;
 using Proxy;
 using Bridge;
 using Flyweight;
+using ChainOfReponsability;
 
 
-int designPattern = 8;
+int designPattern = 9;
 switch (designPattern) 
 {
     case 1:
@@ -37,6 +38,9 @@ switch (designPattern)
         break;
     case 8:
         FlyweightExample.Main();
+        break;
+    case 9:
+        ChainOfReponsabilityExample.Main(); 
         break;
 }
 
