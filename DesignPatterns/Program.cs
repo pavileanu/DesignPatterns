@@ -4,9 +4,10 @@
 9) Chain of responsibility   10) Mediator    11) Observer    12) Strategy    13) Visitor    14) Temaplate*/
 using Factory;
 using Decorator;
+using Singleton;
 
 
-int designPattern = 5;
+int designPattern = 3;
 switch (designPattern) 
 {
     case 1:
@@ -14,6 +15,9 @@ switch (designPattern)
         break;
     case 2:
         BuilderExample.Main();
+        break;
+    case 3:
+        await SingletonExample.Main();
         break;
     case 5:
         DecoratorExample.Main();
