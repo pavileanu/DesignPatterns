@@ -5,9 +5,10 @@
 using Factory;
 using Decorator;
 using Singleton;
+using Adapter;
 
 
-int designPattern = 3;
+int designPattern = 4;
 switch (designPattern) 
 {
     case 1:
@@ -18,6 +19,9 @@ switch (designPattern)
         break;
     case 3:
         await SingletonExample.Main();
+        break;
+    case 4:
+        await AdapterExample.Main();
         break;
     case 5:
         DecoratorExample.Main();

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{AD814084-147C-4FAB-9D27-A139B43A683D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{81AF64B5-8D77-4E74-BC57-05C11415BFCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AD814084-147C-4FAB-9D27-A139B43A683D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD814084-147C-4FAB-9D27-A139B43A683D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD814084-147C-4FAB-9D27-A139B43A683D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AF64B5-8D77-4E74-BC57-05C11415BFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AF64B5-8D77-4E74-BC57-05C11415BFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AF64B5-8D77-4E74-BC57-05C11415BFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AF64B5-8D77-4E74-BC57-05C11415BFCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
