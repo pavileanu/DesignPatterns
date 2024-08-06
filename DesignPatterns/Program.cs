@@ -6,9 +6,11 @@ using Factory;
 using Decorator;
 using Singleton;
 using Adapter;
+using Proxy;
+using Bridge;
 
 
-int designPattern = 4;
+int designPattern = 7;
 switch (designPattern) 
 {
     case 1:
@@ -25,6 +27,12 @@ switch (designPattern)
         break;
     case 5:
         DecoratorExample.Main();
+        break;
+    case 6:
+        ProxyExample.Main();
+        break;
+    case 7:
+        BridgeExample.Main();
         break;
 }
 
