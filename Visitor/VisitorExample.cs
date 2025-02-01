@@ -16,6 +16,14 @@ namespace Visitor
             var operation = new GetInt();
             repo.Visit(operation);
             Console.WriteLine(operation.Result);
+
+            //Bento Example
+            var p = new Processor();
+            var a = new A() { AName = "a" };
+            var b = new B() { BName = "b" };
+            var array = new Base[]{ a, b };
+            
+            p.Process(array);
         }
     }
 }
